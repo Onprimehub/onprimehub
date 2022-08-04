@@ -1,0 +1,41 @@
+.social {
+  color: blueviolet;
+  padding: 1em;
+  font-style: oblique;
+  text-decoration: solid;
+  /* text-decoration-color: ; */
+}
+/* 
+.social li {
+  float: left;
+  margin-left: 15%;
+} */
+
+.social li {
+  text-decoration: underline rgb(223, 126, 46);
+  /* margin: 1em; */
+  padding: 1em;
+  margin-bottom: 1rem;
+  text-align: center;
+  background: wheat;
+  border: 1px solid blue;
+  border-radius: 100px;
+  transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) ease-in-out;
+}
+/* 
+.social li:hover,
+.social li:focus {
+  color: chartreuse;
+  border-bottom: 1px solid red;
+} */
+
+.social li:hover {
+  width: 50%;
+}
+.social + h3 {
+  clear: both;
+}
+
+img {
+  width: 100 px;
+}
